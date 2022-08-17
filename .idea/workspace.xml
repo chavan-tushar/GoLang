@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f93cac4-542b-47e1-8034-2fb429ed6dc9" name="Changes" comment="" />
+    <list default="true" id="0f93cac4-542b-47e1-8034-2fb429ed6dc9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,7 @@
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659653564687</updated>
       <workItem from="1659653566676" duration="2886000" />
-      <workItem from="1660730626630" duration="1825000" />
+      <workItem from="1660730626630" duration="3741000" />
     </task>
     <servers />
   </component>
