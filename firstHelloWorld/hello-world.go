@@ -26,6 +26,12 @@ func calcAge(birthYear int) int {
 
 }
 
+func updateMyFavSport(myFavSport *string) string {
+	*myFavSport = "Football"
+	fmt.Println("my fav sport is ", *myFavSport)
+	return *myFavSport
+}
+
 func main() {
 	myFavSport := "Cricket"
 
@@ -41,5 +47,6 @@ func main() {
 	//we have stored memory address of myFavSport variable in myFavSportPtr variable.
 	//*myFavSportPtr will return the value stored in memory address at which the pointer myFavSportPtr is pointing
 	fmt.Println("Memory address of myFavSport is", myFavSportPtr, "and value stored is ", *myFavSportPtr)
-
+	updateMyFavSport(&myFavSport)
+	fmt.Println("my Fav Sport is ", myFavSport)
 }
