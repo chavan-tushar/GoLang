@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"GoCoursera/pointers"
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Hello GOphers!")
+	pointers.Pointers()
 }
